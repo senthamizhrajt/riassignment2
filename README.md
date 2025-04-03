@@ -1,28 +1,51 @@
-# assignment2
+# Assignment2 - Employee Management System
 
-A new Flutter project.
+This project is a Flutter-based Employee Management System developed by **Senthamizh Raj Thiruneelakandan**. 
+It follows **clean architecture**, uses **Cubit for state management**, and includes a **customized calendar widget**.
+
+## App Name
+- **For better understanding, the app name has been set as "Senthamizh".**
+
+## Demo Video
+🎥 **Watch the Demo Video:** https://d9lkusk6fmuu0.cloudfront.net/
+
+## Features
+1. **Splash Screen**
+    - Loads the database within **2 seconds** delay.
+
+2. **State Management**
+    - Uses **Cubit** for managing app state efficiently.
+
+3. **Employee Management**
+    - Add, edit, and delete employees.
+    - **Undo delete** within **3 seconds**.
+
+4. **Calendar Integration**
+    - **Custom-designed calendar widget**.
+    - Top actions pre-selected for better user experience.
+    - **To Date should always be greater than From Date** when updating employees.
+    - **From Date is pre-selected when opening the calendar for the first time**.
+
+5. **Automatic Employee Categorization**
+    - Adding **To Date** moves the employee to the **Previous Employees** list.
+
+## Edge Cases Handled
+- **Form validation for name & title when adding an employee.**
+- **Ensuring From Date is shown when opening the calendar.**
+- **Preventing invalid date selection scenarios.**
+- **To Date cannot be selected for a new employee**.
+- **To Date should always be greater than From Date** when updating employees.
+
+## App Name
+- **For better understanding I made the app name hass been as senthamizh**
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-
-Edge Cases:
-
-1. Splash screen = To load database
-2. Add employee detail - empty data handling and error messages, no date input save
-3. handling calendar top actions default selection
-4. While updating to date, current date is disabled but today toggle button is available, so i made it selectable in the calendar.
-5. to date should be always greater than joining date
-6. for new employee, to date will not be enabled
-7. cannot select to date for new employee
-8. delete undo option
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/senthamizhrajt/riassignment2.git
+2. **Download the project dependencies**
+   ```sh
+   flutter pub get
+3. **Run the project**
+   ```sh
+   flutter run

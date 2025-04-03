@@ -6,8 +6,8 @@ It follows **clean architecture**, uses **Cubit for state management**, and incl
 ## App Name
 - **For better understanding, the app name has been set as "Senthamizh".**
 
-## Demo Video
-🎥 **Watch the Demo Video:** https://d9lkusk6fmuu0.cloudfront.net/
+## Hosted Web app
+🎥 **Try the web version at:** https://d9lkusk6fmuu0.cloudfront.net/
 
 ## Features
 1. **Splash Screen**
